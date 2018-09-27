@@ -1,0 +1,76 @@
+first we install some packages for the app that are listed below
+
+Express : for the server side coding
+Mongoose : for the database and Schema design 
+Passport :  for the authentication
+passport-jwt : this is because we use JSON WEB TOKEN
+jsonwebtoken  : this is actually used for generating tokens
+body-parser : this is to accept coming data in json form 
+bcryptjs  : it is for hash the password
+validator  : this is for doing some validations
+
+npm i -D nodemon // just for the development purpose -D
+
+
+"scripts": {
+    "start": "node server.js",      // after updating scripts in package.json we can use npm start to run server
+    "server" : "nodemon server.js"    //npm run server to start server with nodemon
+  },
+
+
+  SCHEMA DESIGN:
+      If you want to learn more about Schema check URL below
+      https://mongoosejs.com/docs/guide.html
+  
+  MODEL made by schema
+      u can also add method to your model to learn more chack above URL
+
+  Mongoose supports Streams like real time data change read below
+        https://mongoosejs.com/docs/models.html
+
+
+  Mongoose validators : to learn more check below
+        https://mongoosejs.com/docs/validation.html
+
+
+VALIDATOR::: 
+        for validation we use validator this is owesom
+        check link below
+        https://github.com/chriso/validator.js/
+
+
+
+
+
+
+EXPRESSJS:::
+FOUR MAJOR THINGS
+            MIDDLEWARE ROUTING SUBAPPLICATION CONVINIENCE
+
+commonjs:::
+CommonJS lets you include code from one file in another.
+
+ASYNC::
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+
+MORGAN ::: LOGGING MIDDLEWARE
+npm install --saev morgan // use logger from morgan
+
+
+connect-ratelimit—
+Lets you throttle connections to a certain number of requests
+per hour. If someone is sending numerous requests to your server, you canstart giving them errors to stop them from bringing your site down
+
+
+Helmet—Helps you add HTTP headers to make your app safer against certain
+kinds of attacks. We’ll explore it in later chapters. (I’m a contributor to Helmet,
+so I definitely recommend it!)
+
+cookie-parser—Parses browser cookies.
+■ response-time—Sends the X-Response-Time header so you can debug the performance
+of your application
+
+
+res.sendfile
+res.redirect
